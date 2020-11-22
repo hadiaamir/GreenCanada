@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Green Beauty Brands From Canada</title>
+    <meta name="description" content="Natural skin care brands and body care brands are on the rise, because they are better for you.">
+    <meta name="author" content="Hadi Aamir">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="font-family" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      html, body {
+        padding: 0;
+        margin: 0;
+        font-family: 'DM Sans', sans-serif;
+      }
+
+
+      .txt-light {
+        color: #FFF8F4;
+      }
+
+
+      .txt-dark {
+        color: #2A2A2A;
+      }
+
+      .txt-dark-green {
+        color: #4B7552;
+      }
+
+      .txt-bold {
+        font-weight: 700;
+      }
+
+      .txt-medium { 
+        font-weight: 500;
+      }
+
+      .txt-normal { 
+        font-weight: 400;
+      }
+
+
+      .txt-small {
+        font-size: 18px;
+      }
+
+      
+      .green-canada-navbar-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFF8F4;
+        padding: 0px 0px 0px 50px;
+        height: 85px;
+        
+      }
+
+      .green-canada-main-container {
+
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        background: url('./images/greenMain.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+
+
+        padding: 10px 100px;
+      }
+
+
+      .green-canada-main-txt-wrapper {
+        line-height: 0px;
+        display: flex;
+        flex-flow: column;
+        /* justify-content: center;
+        align-items: center; */
+      }
+
+      .green-canada-main-title {
+        font-size: 72px;
+        font-weight: 700;
+      }
+
+      .green-canada-main-subtitle {
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      .green-canada-main-btn-link {
+        font-weight: 700;
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #4B7552;
+        padding: 18px 20px;
+        min-width: 160px;
+        margin-top: 20px;
+      }
+
+      .green-canada-main-btn-link:hover {
+        background-color: #2A2A2A;
+        transition: .3s;
+      }
+
+
+      .green-canada-intro-products-container {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+       
+      }
+
+
+      .green-canada-intro-products-txt-wrapper {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        /* max-width: 40%; */
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #FFF8F4;
+        height: 500px;  
+      }
+
+      .green-canada-intro-products-title {
+        font-weight: 700;
+        font-size: 32px;
+      }
+      .green-canada-intro-products-description {
+        font-weight: 400;
+        font-size: 18px;
+      }
+
+      .green-canada-products-image {
+        height: 500px;
+      }
+
+
+      .green-canada-product-benefits-container {
+        padding: 50px 0px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #4B7552;
+      }
+
+
+      .green-canada-product-benefits-reasons-container { 
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        /* margin-top: 20px; */
+      }
+
+      .green-canada-product-benefits-reason-wrapper {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+      }
+
+      .green-canada-product-benefits-reason-wrapper > p {
+        max-width: 200px;
+        text-align: center;
+        font-size: 18px;
+      }
+
+
+      .green-canada-top-products-banner {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+     
+     .green-canada-product-overview-container {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-flow: row;
+       padding: 50px 150px;
+       background-color: #FFF8F4;
+     }
+
+     .green-canada-product-overview-txt-wrapper { 
+        display: flex;
+       justify-content: center;
+       align-items: flex-start;
+       flex-flow: column;
+       /* height: 100px; */
+       width: 460px;
+     }
+
+    
+
+     .green-canada-product-overview-image { 
+      height: 400px;
+     }
+
+
+     .footer-container {
+       padding: 10px 40px;
+       display: flex;
+       align-items: baseline;
+       justify-content: space-evenly;
+      background-color: #4B7552;
+      
+     }
+
+
+     .footer-group-unordered-list {
+       text-decoration: none;
+     }
+
+     .footer-txt-container{
+      display: flex;
+      flex-flow: row;
+      margin-left: 50px;
+      /* justify-content: space-evenly; */
+      width: 100%;
+     }
+
+
+     .green-canada-navbar-links-wrapper {
+       display: flex;
+     }
+
+     .green-canada-navbar-link {
+      color:#4B7552;
+     }
+
+     .green-canada-navbar-link:hover {
+      color:#2A2A2A;
+     }
+
+
+     /* .green-canada-header-container {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+     } */
+
+     .arrow-right-svg {
+       margin-left: 10px;
+     }
+
+
+
+     .arrow-right-svg{
+       margin-left: 20px;
+     }
+
+
+     .green-canada-organic-types-container {
+       display: flex;
+       justify-content: flex-start;
+       flex-flow: row;
+       align-items: center;
+       /* padding: 30px 50px; */
+     }
+
+     .green-canada-organic-types-txt-wrapper {
+      display: flex;
+       justify-content: center;
+       
+       flex-flow: column;
+       padding-right: 100px;
+       padding-left: 100px;
+     }
+
+
+
+    </style>
+
+
+  </head>
+  
+  <header class="green-canada-navbar-container">
+    <!-- <img src="cafe-culture.jpg" height="180"> -->
+
+    <!-- Navigation links to website pages -->
+    
+      <h2 style="color: #4B7552;">GreenCanada.</h2>
+      <!-- <div class="green-canada-navbar-links-wrapper">
+        <a href="https://www.thedetoxmarket.ca/collections/skincare" target="_blank" class="green-canada-navbar-link" style="font-weight: 500; text-decoration: none; font-size: 18px; margin-right: 40px;">Skincare</a>
+        <a href="https://www.thedetoxmarket.ca/collections/makeup" target="_blank" class="green-canada-navbar-link"  style="font-weight: 500; text-decoration: none; font-size: 18px;margin-right: 40px;">Makeup</a>
+        <a href="https://www.thedetoxmarket.ca/collections/hair" target="_blank" class="green-canada-navbar-link"  style="font-weight: 500; text-decoration: none; font-size: 18px;margin-right: 40px;">Hair</a>
+        <a href="https://www.thedetoxmarket.ca/collections/body" class="green-canada-navbar-link"   target="_blank"  style="font-weight: 500; text-decoration: none; font-size: 18px;margin-right: 40px;">Body</a>
+      </div> -->
+      
+      </nav>
+     
+  </header>
+  
+  <body>
+
+    <div class="green-canada-main-container">
+      <div class="green-canada-main-txt-wrapper">
+        <h1 class="green-canada-main-title" style="color: #FFFFFF;">Green is better</h1>
+        <h2 class="green-canada-main-subtitle" style="color: #FFFFFF;">Green beauty brands from Canada.</h2>
+      </div>
+      <!-- <a href="#" class="green-canada-main-btn-link" >
+        Explore
+      </a> -->
+    </div>
+
+    <!-- DONT FORGET TO ADD ALT's -->
+
+    <div class="green-canada-intro-products-container">
+      <article class="green-canada-intro-products-txt-wrapper">
+        <h2 class="green-canada-intro-products-title txt-dark">What is Green Beauty?</h2>
+        <p class="green-canada-intro-products-description">Totally natural skincare made with true-to-nature or naturally derived ingredients in the lab.</p>
+      </article>
+
+      <img src="./images/products.png" class="green-canada-products-image" alt="Group of beauty products">
+
+    </div>
+    
+    <div class="green-canada-product-benefits-container">
+      <h2 class="green-canada-intro-products-title txt-light">Benefits of Organic Products?</h2>
+      
+      <div class="green-canada-product-benefits-reasons-container">
+        <div class="green-canada-product-benefits-reason-wrapper">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg alt="No Genetically Modified Organisms" width="29px" height="54px" viewBox="0 0 29 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>dna</title>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Desktop-HD" transform="translate(-219.000000, -1478.000000)">
+                      <rect id="Rectangle" fill="#4B7552" x="0" y="1283" width="1440" height="444"></rect>
+                      <g id="4-pros-group" transform="translate(105.000000, 1476.000000)" fill="#FFF8F4" fill-rule="nonzero">
+                          <g id="dna" transform="translate(114.000000, 2.000000)">
+                              <path d="M25.7896679,52.4179688 C25.7896679,53.2916719 26.5083542,54 27.3948339,54 C28.2813137,54 29,53.2916719 29,52.4179688 C29,41.3488125 24.3389188,34.8539414 19.004417,29.2698984 C18.6361919,29.6351367 18.2692509,29.9968945 17.9049852,30.3559102 C17.5115055,30.7437188 17.1214502,31.1282578 16.7358893,31.5110039 C17.2722288,32.0737852 17.7979742,32.6428945 18.308952,33.2226562 L10.6908339,33.2226562 C12.2409963,31.4639648 13.9251365,29.8036758 15.6348524,28.1186016 C22.2056531,21.6427148 29,14.946293 29,1.58203125 C29,0.708328125 28.2813137,0 27.3948339,0 C26.5083542,0 25.7896679,0.708328125 25.7896679,1.58203125 C25.7896679,2.12614453 25.7769336,2.65739062 25.7528561,3.17724609 L3.24714391,3.17724609 C3.22306642,2.65739062 3.2103321,2.12614453 3.2103321,1.58203125 C3.2103321,0.708328125 2.49164576,0 1.60516605,0 C0.718686347,0 0,0.708328125 0,1.58203125 C0,12.6511875 4.66108118,19.1460586 9.99558303,24.7301016 C10.3638081,24.3648633 10.7307491,24.0031055 11.0950148,23.6440898 C11.4884945,23.2562813 11.8785498,22.8717422 12.2641107,22.4889961 C11.744893,21.9441445 11.2355203,21.3933867 10.739845,20.8327148 L18.260369,20.8327148 C16.72369,22.5709453 15.0568856,24.2139375 13.3650406,25.881293 C6.79434686,32.3572852 0,39.053707 0,52.4179688 C0,53.2916719 0.718686347,54 1.60516605,54 C2.49164576,54 3.2103321,53.2916719 3.2103321,52.4179688 C3.2103321,51.8930508 3.22253137,51.3804727 3.24489668,50.878125 L25.7551033,50.878125 C25.7774686,51.3804727 25.7896679,51.8930508 25.7896679,52.4179688 Z M20.8358044,36.3867188 C21.7528893,37.6778672 22.5796568,39.0470625 23.2840037,40.5310078 L5.71610332,40.5310078 C6.42045018,39.0470625 7.2471107,37.6778672 8.16430258,36.3867188 L20.8358044,36.3867188 Z M25.4444502,6.34130859 C25.2265756,7.77294141 24.9103579,9.10680469 24.5109926,10.3603008 L4.48900738,10.3603008 C4.08964207,9.10680469 3.77331734,7.77283594 3.55554982,6.34130859 L25.4444502,6.34130859 Z M8.2041107,17.6686523 C7.28263838,16.3771875 6.45116236,15.0083086 5.74242804,13.5243633 L23.257572,13.5243633 C22.5488376,15.0083086 21.7173616,16.3771875 20.7958893,17.6686523 L8.2041107,17.6686523 Z M3.54730996,47.7140625 C3.76218819,46.2825352 4.07551661,44.9486719 4.47167159,43.6950703 L24.5283284,43.6950703 C24.9244834,44.9486719 25.2378118,46.2825352 25.45269,47.7140625 L3.54730996,47.7140625 Z" id="Shape"></path>
+                          </g>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+
+          <p class="txt-light txt-medium">No Genetically Modified Organisms</p>
+        </div>
+
+        <div class="green-canada-product-benefits-reason-wrapper">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg alt="No animal testing"  width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>animal-test</title>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Desktop-HD" transform="translate(-525.000000, -1476.000000)">
+                      <rect id="Rectangle" fill="#4B7552" x="0" y="1283" width="1440" height="444"></rect>
+                      <g id="4-pros-group" transform="translate(105.000000, 1476.000000)" fill="#FFF8F4" fill-rule="nonzero">
+                          <g id="animal-test" transform="translate(420.000000, 0.000000)">
+                              <path d="M49.2539062,44.5078125 L43.9997695,44.5078125 C44.5582266,42.3304102 44.5360781,39.9982852 43.8940898,37.7121445 C42.813668,33.8649609 39.0481172,30.3544336 34.9168008,29.1258281 C34.9690078,28.1872617 35.3589258,27.312082 36.0288633,26.6421445 C37.34775,25.3231523 38.0742188,23.569418 38.0742188,21.7040977 L38.0742188,9.4921875 L41.2382812,9.4921875 L41.2382812,6.328125 L34.9101562,6.328125 L34.9101562,3.1640625 L38.0742188,3.1640625 L38.0742188,0 L28.5820312,0 L28.5820312,3.1640625 L31.7460938,3.1640625 L31.7460938,6.328125 L25.4179688,6.328125 L25.4179688,9.4921875 L28.5820312,9.4921875 L28.5820312,21.7040977 C28.5820312,23.5695234 29.3085,25.3231523 30.6274922,26.6421445 C31.1794102,27.1940625 31.5408516,27.8854102 31.6804922,28.6365586 C28.5400547,28.6127227 25.7670703,30.0922383 17.8245352,34.4100234 C16.6502461,32.8327383 14.7795469,31.8515625 12.7617188,31.8515625 C9.27239062,31.8515625 6.43359375,34.6903594 6.43359375,38.1796875 C6.43359375,38.9297813 6.56732813,39.6640547 6.82646484,40.3581445 C2.64789844,42.9431836 0,47.504707 0,52.4179688 L0,54 L31.7460938,54 C36.4544297,54 40.5091758,51.4731797 42.7079883,47.671875 L49.2539062,47.671875 C50.1262383,47.671875 50.8359375,48.3815742 50.8359375,49.2539062 C50.8359375,50.1262383 50.1262383,50.8359375 49.2539062,50.8359375 L44.4023438,50.8359375 L44.4023438,54 L49.2539062,54 C51.8709023,54 54,51.8709023 54,49.2539062 C54,46.6369102 51.8709023,44.5078125 49.2539062,44.5078125 Z M34.9101562,9.4921875 L34.9101562,21.7040977 C34.9101562,22.7242969 34.5128555,23.6834297 33.7915547,24.4048359 C33.6278672,24.5685234 33.47325,24.7388555 33.328125,24.9153047 C33.183,24.7388555 33.0283828,24.5685234 32.8646953,24.4048359 C32.1432891,23.6834297 31.7460938,22.7242969 31.7460938,21.7040977 L31.7460938,9.4921875 L34.9101562,9.4921875 Z M31.7460938,50.8359375 L25.6900781,50.8359375 C26.3431406,48.9946641 28.1016211,47.671875 30.1640625,47.671875 L31.7460938,47.671875 L31.7460938,44.5078125 L30.1640625,44.5078125 C26.3440898,44.5078125 23.1480703,47.22975 22.4130586,50.8359375 L3.28651172,50.8359375 C3.81227344,47.440793 5.99589844,44.3443359 9.14540625,42.6735 L11.3133164,41.5217812 L10.2245625,40.0460625 C9.81439453,39.4902422 9.59765625,38.8448789 9.59765625,38.1796875 C9.59765625,36.4350234 11.0170547,35.015625 12.7617188,35.015625 C14.0723789,35.015625 15.2600625,35.8511484 15.7171641,37.0948359 L16.3488164,38.8131328 C26.026418,33.5842031 28.994625,31.7673984 31.7459883,31.8055781 L31.7459883,38.1796875 L34.9100508,38.1796875 L34.9100508,32.4791016 C37.6555078,33.6121523 40.1444648,36.0633516 40.8477305,38.5676016 C42.6409102,44.9528906 37.9584141,50.8359375 31.7460938,50.8359375 L31.7460938,50.8359375 Z" id="Shape"></path>
+                              <polygon id="Path" points="10 44 13 44 13 47 10 47"></polygon>
+                          </g>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+
+          <p class="txt-light txt-medium">No animal testing</p>
+        </div>
+
+        <div class="green-canada-product-benefits-reason-wrapper">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg alt="No controversial chemicals" width="44px" height="49px" viewBox="0 0 44 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>flask</title>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Desktop-HD" transform="translate(-856.000000, -1483.000000)">
+                      <rect id="Rectangle" fill="#4B7552" x="0" y="1283" width="1440" height="444"></rect>
+                      <g id="4-pros-group" transform="translate(105.000000, 1476.000000)" fill="#FFF8F4" fill-rule="nonzero">
+                          <g id="flask" transform="translate(751.000000, 7.000000)">
+                              <path d="M42.8926865,37.9686836 C42.4856999,37.312543 29.3993493,16.214502 28.9960939,15.5643906 L28.9960939,8.61328125 C31.3106846,8.61328125 33.1937557,6.68132227 33.1937557,4.30664063 C33.1937557,1.93195898 31.3107779,0 28.9960939,0 L15.0038879,0 C12.6892972,0 10.8062261,1.93195898 10.8062261,4.30664063 C10.8062261,6.68132227 12.6892972,8.61328125 15.0038879,8.61328125 L15.0038879,15.5643906 L1.10738859,37.9686836 C-1.8598919,42.7527871 1.48359237,49 7.00976749,49 L36.9903076,49 C42.5173223,49 45.8595006,42.7519258 42.8926865,37.9686836 Z M17.5836776,16.7531191 C17.7264914,16.5227617 17.8024224,16.2554629 17.8024224,15.9824219 L17.8024224,8.61328125 C18.5751653,8.61328125 19.201643,7.97053906 19.201643,7.17773438 C19.201643,6.38492969 18.5751653,5.7421875 17.8024224,5.7421875 L15.0039812,5.7421875 C14.232451,5.7421875 13.6047606,5.09820117 13.6047606,4.30664062 C13.6047606,3.51508008 14.232451,2.87109375 15.0039812,2.87109375 L28.9961872,2.87109375 C29.7677174,2.87109375 30.3954078,3.51508008 30.3954078,4.30664062 C30.3954078,5.09820117 29.7677174,5.7421875 28.9961872,5.7421875 L26.197746,5.7421875 C25.4250031,5.7421875 24.7985254,6.38492969 24.7985254,7.17773438 C24.7985254,7.97053906 25.4250031,8.61328125 26.197746,8.61328125 L26.197746,15.9824219 C26.197746,16.2554629 26.2735838,16.5227617 26.4164908,16.7531191 L30.2207851,22.8864453 C26.9647055,22.1717344 23.5007017,22.8009824 20.6116842,24.7770605 L16.239493,27.7675918 C14.3000799,29.0941328 12.00797,29.6558145 9.74085954,29.3977988 L17.5836776,16.7531191 Z M36.9903076,46.1289063 L7.00976749,46.1289063 C3.69361466,46.1289063 1.68815842,42.3801191 3.46834015,39.5101738 L8.11020785,32.0263809 C9.00804107,32.2293672 9.9158554,32.3314824 10.8197519,32.3314824 C13.2718394,32.3314824 15.6926776,31.5920801 17.7915085,30.1565332 L22.1636997,27.166002 C25.377896,24.9676055 29.5064363,24.9109492 32.7684859,26.9943105 L40.5315484,39.5101738 C42.3121965,42.380502 40.305994,46.1289063 36.9903076,46.1289063 Z" id="Shape"></path>
+                              <path d="M13,35 C10.7944,35 9,36.7944 9,39 C9,41.2056 10.7944,43 13,43 C15.2056,43 17,41.2056 17,39 C17,36.7944 15.2056889,35 13,35 Z M13,40.3333333 C12.2648,40.3333333 11.6666667,39.7352 11.6666667,39 C11.6666667,38.2648 12.2648,37.6666667 13,37.6666667 C13.7352,37.6666667 14.3333333,38.2648 14.3333333,39 C14.3333333,39.7352 13.7352889,40.3333333 13,40.3333333 Z" id="Shape"></path>
+                              <path d="M27,29 C24.7944,29 23,30.7944 23,33 C23,35.2056 24.7944,37 27,37 C29.2056,37 31,35.2056 31,33 C31,30.7944 29.2056889,29 27,29 Z M27,34.3333333 C26.2648,34.3333333 25.6666667,33.7352 25.6666667,33 C25.6666667,32.2648 26.2648,31.6666667 27,31.6666667 C27.7352,31.6666667 28.3333333,32.2648 28.3333333,33 C28.3333333,33.7352 27.7352889,34.3333333 27,34.3333333 Z" id="Shape"></path>
+                              <circle id="Oval" cx="22.5" cy="39.5" r="1.5"></circle>
+                              <circle id="Oval" cx="33.5" cy="39.5" r="1.5"></circle>
+                              <circle id="Oval" cx="27.5" cy="42.5" r="1.5"></circle>
+                          </g>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+
+          <p class="txt-light txt-medium">No controversial chemicals</p>
+        </div>
+
+
+        <div class="green-canada-product-benefits-reason-wrapper">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg alt="No synthetic colours, dyes or fragrances" width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>washing-machine</title>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Desktop-HD" transform="translate(-1177.000000, -1483.000000)">
+                      <rect id="Rectangle" fill="#4B7552" x="0" y="1283" width="1440" height="444"></rect>
+                      <g id="4-pros-group" transform="translate(105.000000, 1476.000000)" fill="#FFF8F4" fill-rule="nonzero">
+                          <g id="washing-machine" transform="translate(1072.000000, 7.000000)">
+                              <path d="M44.6325699,31.8094219 L45.4911262,27.9144961 C45.4914133,27.9127734 45.4919875,27.9110508 45.4923703,27.9092324 C45.4923703,27.9089453 45.492466,27.9086582 45.492466,27.9083711 L45.9638058,25.7699805 C46.0563511,25.337498 46.4964916,25.0551738 46.928593,25.1509727 C47.3650968,25.2477285 47.6414885,25.6842305 47.5449237,26.1236992 L46.481849,30.9503906 C46.3965772,31.3375098 46.6412911,31.7205137 47.0284118,31.8057852 C47.4155325,31.891248 47.798538,31.6464395 47.8838099,31.2592246 L48.9469803,26.4322461 C49.2133231,25.2208359 48.4474079,24.0173691 47.2403951,23.7496875 C46.0407515,23.4836328 44.819766,24.2634219 44.5619407,25.4614336 L44.2437265,26.9049238 C43.9383366,26.8059668 43.6654858,26.6887305 43.3839261,26.5669961 C42.5936064,26.2253359 41.6977258,25.8380254 39.9991797,25.8380254 C38.3009207,25.8380254 37.4050401,26.2252402 36.6146247,26.566709 C35.8558872,26.8946836 35.2006052,27.1778691 33.7985487,27.1778691 C32.3970663,27.1778691 31.7419757,26.8946836 30.9834296,26.5668047 C30.1930143,26.2252402 29.2972293,25.8380254 27.598779,25.8380254 C25.9004243,25.8380254 25.0045436,26.2252402 24.214224,26.5668047 C23.4556779,26.8946836 22.8005873,27.1778691 21.399105,27.1778691 C19.9975269,27.1778691 19.342532,26.8946836 18.5839859,26.5668047 C17.793762,26.2252402 16.8981684,25.8380254 15.200388,25.8380254 C13.5019376,25.8380254 12.6061527,26.2252402 11.8157373,26.5668047 C11.0571912,26.8946836 10.4021006,27.1778691 9.00061829,27.1778691 C7.59951876,27.1778691 6.94461958,26.8947793 6.18636059,26.5669004 C5.73215169,26.3705176 5.22875118,26.1528887 4.55834802,26.0079941 L4.43795299,25.4619121 C4.18051053,24.2628477 2.95368711,23.4849727 1.76035992,23.7495918 C0.552485802,24.0173691 -0.213525168,25.2208359 0.0529134301,26.4325332 L4.10595748,44.8295449 C4.64716089,47.2850957 6.77560716,49 9.28208234,49 L39.6935026,49 C44.8251254,49 49,44.8251426 49,39.693541 C49,36.3751309 47.2538893,33.4574297 44.6325699,31.8094219 L44.6325699,31.8094219 Z M9.28208234,47.5644531 C7.45481504,47.5644531 5.90279106,46.3128477 5.50791834,44.5207109 L1.45496999,26.124082 C1.35821373,25.6843262 1.6347012,25.2478242 2.07225769,25.1507813 C2.50282783,25.0552695 2.94354254,25.3387422 3.03608784,25.770459 L7.09008893,44.166418 C7.31920315,45.2064238 8.2206346,45.9328105 9.28217804,45.9328105 L13.8875271,45.9328105 C14.2839311,45.9328105 14.6053035,45.6115352 14.6053035,45.2150371 C14.6053035,44.8185391 14.2839311,44.4972637 13.8875271,44.4972637 L9.28208234,44.4972637 C8.89984248,44.4972637 8.57492903,44.2342715 8.49195408,43.8574883 L4.90871861,27.5978145 C5.15515517,27.6850957 5.38302525,27.7834785 5.61663754,27.884541 C6.4068615,28.2262012 7.30245504,28.613416 9.00061829,28.613416 C10.6990687,28.613416 11.5948536,28.2262012 12.385269,27.8846367 C13.1438151,27.5567578 13.7989057,27.2735723 15.200388,27.2735723 C16.6012004,27.2735723 17.2560996,27.5566621 18.0143586,27.884541 C18.8046782,28.2261055 19.7005589,28.613416 21.399105,28.613416 C23.0975553,28.613416 23.9933403,28.2262012 24.7837556,27.8846367 C25.5423017,27.5567578 26.1973923,27.2735723 27.598779,27.2735723 C29.0001656,27.2735723 29.6553519,27.5567578 30.4138023,27.8846367 C31.2042176,28.2262012 32.1000026,28.613416 33.798453,28.613416 C35.4973818,28.613416 36.3934539,28.2262012 37.1840607,27.884541 C37.9426068,27.5566621 38.5977931,27.2735723 39.999084,27.2735723 C41.4005663,27.2735723 42.0556569,27.5567578 42.8141073,27.8847324 C43.1585443,28.0336465 43.5112117,28.1857188 43.9332643,28.3128125 L43.3144453,31.1204551 C42.2009349,30.6483516 40.9770783,30.387082 39.6934069,30.387082 C34.5617842,30.387082 30.3868139,34.5619395 30.3868139,39.693541 C30.3868139,41.4498848 30.8760503,43.0940645 31.7251319,44.497168 L16.7584413,44.497168 C16.3620373,44.497168 16.0406649,44.8184434 16.0406649,45.2149414 C16.0406649,45.6114395 16.3620373,45.9327148 16.7584413,45.9327148 L32.7941402,45.9327148 C33.3619492,46.5599531 34.0139773,47.1093848 34.7320408,47.5636875 C26.0926927,47.5644531 9.5067942,47.5644531 9.28208234,47.5644531 L9.28208234,47.5644531 Z M39.7584853,47.5628262 C35.3916294,47.5985234 31.8224624,44.0888027 31.8224624,39.693541 C31.8224624,35.3535 35.3534437,31.8226289 39.6935026,31.8226289 C44.0335616,31.8226289 47.5644472,35.3535957 47.5644472,39.693541 C47.5644472,44.011666 44.068589,47.5276074 39.7584853,47.5628262 L39.7584853,47.5628262 Z M24.8261523,7.2306582 C26.8196566,7.2306582 28.4414484,5.60887305 28.4414484,3.61537695 C28.4415441,1.62178516 26.8196566,0 24.8261523,0 C22.832648,0 21.2108561,1.62178516 21.2108561,3.61528125 C21.2108561,5.60877734 22.832648,7.2306582 24.8261523,7.2306582 Z M24.8261523,1.43554688 C26.0280928,1.43554688 27.0058956,2.41344141 27.0058956,3.61528125 C27.0058956,4.81712109 26.0280928,5.79501563 24.8261523,5.79501563 C23.6242118,5.79501563 22.6464089,4.81712109 22.6464089,3.61528125 C22.6464089,2.41344141 23.6242118,1.43554688 24.8261523,1.43554688 Z M42.6632786,35.7110469 C41.2394016,35.7110469 40.0810062,36.8694375 40.0810062,38.2932129 L40.0810062,41.2750352 C40.0810062,42.6989063 41.2394016,43.8572969 42.6632786,43.8572969 C44.0871555,43.8572969 45.2455509,42.6989063 45.2455509,41.2750352 L45.2455509,38.2932129 C45.2455509,36.8693418 44.0871555,35.7110469 42.6632786,35.7110469 L42.6632786,35.7110469 Z M43.8099981,41.2750352 C43.8099981,41.9073457 43.2955917,42.42175 42.6632786,42.42175 C42.0309654,42.42175 41.516559,41.9073457 41.516559,41.2750352 L41.516559,38.2932129 C41.516559,37.660998 42.0309654,37.1465938 42.6632786,37.1465938 C43.2955917,37.1465938 43.8099981,37.660998 43.8099981,38.2932129 L43.8099981,41.2750352 Z M23.303605,15.8630801 C24.6890091,15.8630801 25.8160138,14.7359844 25.8160138,13.3505859 C25.8160138,11.9651875 24.6889134,10.8380918 23.303605,10.8380918 C21.9182965,10.8380918 20.7911962,11.9651875 20.7911962,13.3505859 C20.7911962,14.7359844 21.9182008,15.8630801 23.303605,15.8630801 L23.303605,15.8630801 Z M23.303605,12.2736387 C23.8974453,12.2736387 24.380461,12.756748 24.380461,13.3505859 C24.380461,13.9444238 23.8973496,14.4275332 23.303605,14.4275332 C22.7098604,14.4275332 22.226749,13.9444238 22.226749,13.3505859 C22.226749,12.756748 22.7097647,12.2736387 23.303605,12.2736387 L23.303605,12.2736387 Z M36.3170825,38.3307285 C36.8331159,37.3345547 37.4244679,36.803498 37.4397805,36.7900996 C37.7383754,36.5316055 37.7722545,36.0800781 37.514812,35.7799531 C37.2566996,35.4791582 36.8035435,35.4442266 36.5026516,35.7025293 C36.5638061,35.7092285 34.141263,38.1385566 34.141263,40.9965391 C34.141263,42.4740039 35.2262538,43.6759395 36.5598823,43.6759395 C37.8935108,43.6759395 38.9785017,42.4739082 38.9785017,40.9965391 C38.9785017,39.4294004 37.7550279,38.1717656 36.3170825,38.3307285 L36.3170825,38.3307285 Z M36.5598823,42.2404883 C36.0178176,42.2404883 35.5768158,41.6825391 35.5768158,40.9966348 C35.5768158,40.3107305 36.0178176,39.7527812 36.5598823,39.7527812 C37.101947,39.7527812 37.5429489,40.3107305 37.5429489,40.9966348 C37.5429489,41.6825391 37.101947,42.2404883 36.5598823,42.2404883 Z M13.3025872,20.7675781 C14.9912758,20.7675781 16.3650998,19.3937598 16.3650998,17.7050781 C16.3650998,16.0163965 14.9912758,14.6425781 13.3025872,14.6425781 C11.6138986,14.6425781 10.2400746,16.0163965 10.2400746,17.7050781 C10.2400746,19.3937598 11.6138986,20.7675781 13.3025872,20.7675781 Z M13.3025872,16.078125 C14.199712,16.078125 14.929547,16.807957 14.929547,17.7050781 C14.929547,18.6021992 14.199712,19.3320312 13.3025872,19.3320312 C12.4054624,19.3320312 11.6756274,18.6021992 11.6756274,17.7050781 C11.6756274,16.807957 12.4054624,16.078125 13.3025872,16.078125 Z" id="Shape"></path>
+                          </g>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+
+          <p class="txt-light txt-medium">No synthetic colours, dyes or fragrances</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  <div class="green-canada-organic-types-container" style="background-color:#FFF8F4;">
+      <img src="./images/orgnictype.jpg"  style="height: 450px;" alt="Fruits and vegetable">
+
+      <div class="green-canada-organic-types-txt-wrapper" style="height: 450px; background: #FFF8F4;">
+        <h2 class="green-canada-intro-products-title txt-dark">Different types of Organic beauty products:</h2>
+        <ul style="list-style: none; line-height: 50px; color:#2A2A2A; font-size: 18px;">
+          <li><strong>Natural Beauty</strong> – Ingredients sourced from nature.</li>
+          <li>
+            <strong>Green Beauty</strong> – Sustainable and environmental responsibility towards the planet.
+          </li>
+          <li><strong>Clean Beauty</strong> – Products containing non-toxic ingredients both natural and/or synthetic.</li>
+        </ul>
+      </div>
+
+      
+
+    </div>
+
+
+
+
+
+    <div class="green-canada-top-products-banner" style="background-color: #C4D0BE;">
+        <h2 class="green-canada-intro-products-title txt-dark">Top Canadian Green Beauty Products</h2>
+    </div>
+
+
+    <div class="green-canada-product-overview-container">
+      <article class="green-canada-product-overview-txt-wrapper">
+        <span class="txt-dark-green">Province Apothecary</span>
+        <h2 class="green-canada-intro-products-title txt-dark" style="text-transform: uppercase;">Nourishing + Revitalizing Moisturizer</h2>
+        <p class="txt-normal txt-dark txt-small">Province Apothecary's reformulated moisturizer is pH balanced and suitable for all skin types. Rich + lightweight, this fast-absorbing daily moisturizer firms skin and smoothes the appearance of fine lines.</p>
+        <a href="https://provinceapothecary.com/products/nourishing-revitalizing-moisturizer" target="_blank" class="green-canada-main-btn-link" alt="Shop Nourishing + Revitalizing Moisturizer">
+          Shop Now
+        </a>
+      </article>
+      <img src="./images/product-1.png" class="green-canada-product-overview-image" alt="Nourishing + Revitalizing Moisturizer">
+    </div>
+
+
+    <div class="green-canada-product-overview-container" style="background-color: #C4D0BE;">
+      <img src="./images/product-2.png" class="green-canada-product-overview-image" alt="BECALM BUBBLE ELIXIR">
+      <article class="green-canada-product-overview-txt-wrapper">
+        <span class="txt-dark-green">Bathorium</span>
+        <h2 class="green-canada-intro-products-title txt-dark" style="text-transform: uppercase;">BeCalm Bubble Elixir</h2>
+        <p class="txt-normal txt-dark txt-small">Green, clean and natural bubble bath formulated without the use of harsh surfactants and detergents.</p>
+        <a href="https://www.bathorium.com/products/becalm-bubble-elixir"  target="_blank" class="green-canada-main-btn-link" alt="Shop BeCalm Bubble Elixir">
+          Shop Now
+        </a>
+      </article>
+    </div>
+
+    <div class="green-canada-product-overview-container">
+      <article class="green-canada-product-overview-txt-wrapper">
+        <span class="txt-dark-green">Wildcraft</span>
+        <h2 class="green-canada-intro-products-title txt-dark" style="text-transform: uppercase;">CHAMOMILE HONEY MAKEUP REMOVER</h2>
+        <p class="txt-normal txt-dark txt-small">A unique and gentle blend of healing and cleansing ingredients, Cleanse Makeup Remover effectively removes dirt, grime and makeup while restoring skin’s moisture balance and nourishing lashes and brows.</p>
+        <a href="https://wildcraftcare.ca/products/chamomile-honey-makeup-remover" class="green-canada-main-btn-link" target="_blank" alt="Shop CHAMOMILE HONEY MAKEUP REMOVER">
+          Shop Now
+        </a>
+      </article>
+      <img src="./images/prduct-3.png" class="green-canada-product-overview-image" alt="CHAMOMILE HONEY MAKEUP REMOVER">
+    </div>
+
+
+
+    
+   
+    <div class="green-canada-product-benefits-container" style="padding-left: 100px; padding-right: 100px;">
+      <h2 class="green-canada-intro-products-title txt-light">2 Main Ingredients to Avoid</h2>
+
+      <article style="color:#FFF8F4;">
+      <h3>ETHOXYLATED AGENTS</h3>
+      <span>Ethoxylated agents include polyethylene glycols (PEGs), ceteareths, oleth, and sulfates. Sulfates are responsible for the bubbles and lather in cleansers like shampoo. Some sulfates are synthetic, while others are derived from sulfur and petroleum, as well as natural sources like coconut and palm oils. PEG compounds are used as thickeners, solvents, and softeners in hair products, as well as some moisturizers and base products.</span>
+      <p><strong>Problem:</strong> Sodium lauryl sulfate is a harsh cleanser, which is why it gets a bad reputation in the world of hair care. It will strip your hair, but it’s not inherently toxic. To save your hair, sodium lauryl sulfate is sometimes converted into sodium laureth sulfate through a process called ethoxylation. A by-product of this process is 1,4-dioxane, a chemical the Environmental Protection Agency (EPA) lists as a likely human carcinogen. On the FDA website, it’s noted that the agency “periodically monitors the levels of 1,4-dioxane in cosmetics products” and that “changes made in the manufacturing process have resulted in a significant decline over time in the levels of this contaminant in these products.” A 2018 FDA survey of 82 randomly selected personal care products marketed toward children found that only two had levels of 1,4-dioxane above 10 ppm, which is significantly lower than in the surveys conducted from 1981 through 1997. The agency also notes that 1,4-dioxane evaporates quickly, lowering the risk of transdermal absorption “even in products that remain on the skin for hours.” As of July 2019, Sephora is requiring brands to test for the presence of 1,4-dioxane.
+
+        FORMALDEHYDE
+        The most notorious preservative in history, formaldehyde is commonly found in keratin smoothing treatments that rely on the chemical to lock the hair’s broken disulfide bonds into a straighter position.
+        
+        The problem: Formaldehyde is recognized globally as a human carcinogen, and that’s why it (and its offspring) have been eliminated from most common cosmetic products, like nail polish. Salon keratin treatments often claim to be free of the f-word too. Except they’re not: What they contain instead are ingredients like methylene glycol, formalin, methanal, and methanediol, which release the carcinogenic compound when mixed with water during the treatment. This presents a risk to you, of course, but it’s most dangerous for the salon technician who styles hair in an enclosed space day in and day out. The U.S. Occupational Safety and Health Administration (OSHA) lists sore throat, nosebleeds, and itchy eyes as common side effects to formaldehyde exposure. The FDA also warns that formulas and products can claim they’re natural, organic, and/or formaldehyde free when that’s not true. The agency encourages consumers to always read the label, ask hair professionals for an ingredient list, and report all negative reactions.</p>
+      </article>
+    
+      <article style="color:#FFF8F4;">
+        <h3>FRAGRANCES AND PHTHALATES</h3>
+        <span>The word fragrance is a catchall term that can disguise up to 3,000 synthetic or natural chemicals used to make a beauty product smell delicious. Fragrances are considered a trade secret and, therefore, do not have to be disclosed. On a related note, phthalates, which help fragrances last longer, are a group of chemicals used to keep materials and products (nail polishes, hair sprays, plastics) pliable. You’ll find them on an ingredient list abbreviated as DEP, BBzP, DBP, and DEHP.
+
+          <p><strong>Problem:</strong> Where there is the vague ingredient fragrance, there are phthalates—most of the time, anyway. Phthalates have been linked to reproductive and hormonal harm in children and men. Some studies have linked phthalate exposure to obesity, type 2 diabetes, reduced sperm count, breast cancers, reproductive malformation, infertility, and cardiovascular events. A study from 2017 found that 70 percent of perfume and cosmetics salespeople had exceeded the cumulative risk of phthalate exposure. Fragrance on its own can also be a trigger for allergies and asthma attacks, since we don’t know exactly what ingredients are being used in both short- and long-term exposure. Cosmetics giants Unilever, Procter & Gamble, and Johnson & Johnson have all committed to fragrance transparency in the last several years.</p>
+        </article>
+      </div>
+    
+    
+    </div>
+
+
+    
+
+    
+    
+
+  </body>
+ 
+  <footer class="footer-container" style="background-color:#2A2A2A;">
+  
+      <h2 style="color: #FFF8F4;">GreenCanada.</h2>
+
+      <div class="footer-txt-container">
+          <span style="color: #FFF8F4;">Made by Hadi Aamir 2020</span>
+      </div>
+      
+      
+    
+  </footer>
+</html>
